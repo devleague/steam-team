@@ -1,0 +1,1054 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+ <title>Nikto Report</title>
+ <style type="text/css">
+  .dataTable
+  {
+   font-family: tahoma, sans-serif;
+   font-size: 11pt; 
+   font-weight: normal; 
+   color: #000066;
+   background: #EEEEEE;
+   border: thin solid black;
+   width: 95%;
+  }
+  .headerTable
+  {
+   font-family: tahoma, sans-serif;
+   font-size: 15pt; 
+   font-weight: normal; 
+   color: white;
+   background: #000066;
+   border: thin solid black;
+   width: 300px;
+  }
+  .column-head
+  {
+   width: 15em;
+   font-weight:bold;
+  }
+  .copyright
+  {
+   font-family: tahoma, sans-serif;
+   font-size: 10pt;
+   font-weight: normal;
+   font-style: italic;
+   color: black;
+  }
+  body
+  {
+   background: white;
+  }
+ </style>
+</head>
+<body>
+<div>
+<a name="1"></a>
+<table class="headerTable">
+ <tr>
+   <td>store.steampowered.com / 184.28.244.201 port 80</td>
+ </tr>
+</table>
+<table class="dataTable">
+ <tr>
+   <td class="column-head">Target IP</td>
+   <td>184.28.244.201</td>
+ </tr>
+ <tr>
+   <td class="column-head">Target hostname</td>
+   <td>store.steampowered.com</td>
+ </tr>
+  <tr>
+   <td class="column-head">Target Port</td>
+   <td>80</td>
+ </tr>
+  <tr>
+   <td class="column-head">HTTP Server</td>
+   <td>Apache</td>
+ </tr>
+ <tr>
+   <td class="column-head">Site Link (Name)</td>
+   <td><a href="http://store.steampowered.com:80/">http://store.steampowered.com:80/</a></td>
+ </tr>
+ <tr>
+   <td class="column-head">Site Link (IP)</td>
+   <td><a href="http://184.28.244.201:80/">http://184.28.244.201:80/</a></td>
+ </tr>
+ </table>
+</div>
+<p></p>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>GET</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>The anti-clickjacking X-Frame-Options header is not present.</td>
+  </tr>
+  <tr>
+    <td class="column-head">Test Links</td>
+    <td>
+      <a href="http://store.steampowered.com:80/">http://store.steampowered.com:80/</a><br>
+      <a href="http://184.28.244.201:80/">http://184.28.244.201:80/</a>
+    </td>
+  </tr>
+  <tr>
+    <td class="column-head">OSVDB Entries</td>
+    <td>
+      <a href="http://osvdb.org/0" title="More vulnerability information on OSVDB.org">OSVDB-0</a>
+    </td>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>GET</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>The X-XSS-Protection header is not defined. This header can hint to the user agent to protect against some forms of XSS</td>
+  </tr>
+  <tr>
+    <td class="column-head">Test Links</td>
+    <td>
+      <a href="http://store.steampowered.com:80/">http://store.steampowered.com:80/</a><br>
+      <a href="http://184.28.244.201:80/">http://184.28.244.201:80/</a>
+    </td>
+  </tr>
+  <tr>
+    <td class="column-head">OSVDB Entries</td>
+    <td>
+      <a href="http://osvdb.org/0" title="More vulnerability information on OSVDB.org">OSVDB-0</a>
+    </td>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>GET</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>The X-Content-Type-Options header is not set. This could allow the user agent to render the content of the site in a different fashion to the MIME type</td>
+  </tr>
+  <tr>
+    <td class="column-head">Test Links</td>
+    <td>
+      <a href="http://store.steampowered.com:80/">http://store.steampowered.com:80/</a><br>
+      <a href="http://184.28.244.201:80/">http://184.28.244.201:80/</a>
+    </td>
+  </tr>
+  <tr>
+    <td class="column-head">OSVDB Entries</td>
+    <td>
+      <a href="http://osvdb.org/0" title="More vulnerability information on OSVDB.org">OSVDB-0</a>
+    </td>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/lSnit85w.vts</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>GET</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>Uncommon header 'x-n' found, with contents: S</td>
+  </tr>
+  <tr>
+    <td class="column-head">Test Links</td>
+    <td>
+      <a href="http://store.steampowered.com:80/lSnit85w.vts">http://store.steampowered.com:80/lSnit85w.vts</a><br>
+      <a href="http://184.28.244.201:80/lSnit85w.vts">http://184.28.244.201:80/lSnit85w.vts</a>
+    </td>
+  </tr>
+  <tr>
+    <td class="column-head">OSVDB Entries</td>
+    <td>
+      <a href="http://osvdb.org/0" title="More vulnerability information on OSVDB.org">OSVDB-0</a>
+    </td>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/robots.txt</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>GET</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>&quot;robots.txt&quot; contains 7 entries which should be manually viewed.</td>
+  </tr>
+  <tr>
+    <td class="column-head">Test Links</td>
+    <td>
+      <a href="http://store.steampowered.com:80/robots.txt">http://store.steampowered.com:80/robots.txt</a><br>
+      <a href="http://184.28.244.201:80/robots.txt">http://184.28.244.201:80/robots.txt</a>
+    </td>
+  </tr>
+  <tr>
+    <td class="column-head">OSVDB Entries</td>
+    <td>
+      <a href="http://osvdb.org/0" title="More vulnerability information on OSVDB.org">OSVDB-0</a>
+    </td>
+</table>
+
+<div>
+<p></p>
+<table class="headerTable">
+ <tr>
+  <td>Host Summary</td>
+ </tr>
+</table>
+<table  class="dataTable">
+ <tr>
+  <td class="column-head">Start Time</td>
+  <td>2018-06-30 16:07:31</td>
+ </tr>
+ <tr>
+  <td class="column-head">End Time</td>
+  <td>2018-06-30 16:24:32</td>
+ </tr>
+ <tr>
+  <td class="column-head">Elapsed Time</td>
+  <td>1021 seconds</td>
+ </tr>
+ <tr>
+  <td class="column-head">Statistics</td>
+  <td>7506 requests, 0 errors, 5 findings</td>
+ </tr>
+</table>
+</div>
+<p></p>
+
+<p></p>
+<table class="headerTable">
+  <tr>
+    <td>Scan Summary</td>
+  </tr>
+</table>
+<table class="dataTable">
+  <tr>
+    <td class="column-head">Software Details</td>
+    <td><a href="http://cirt.net/">Nikto 2.1.6</a></td>
+  <tr>
+    <td class="column-head">CLI Options</td>
+    <td>-h store.steampowered.com -o store.steampowered-results.html</td>
+  </tr>
+  <tr>
+    <td class="column-head">Hosts Tested</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td class="column-head">Start Time</td>
+    <td>Sat Jun 30 16:07:30 2018</td>
+  </tr>
+  <tr>
+    <td class="column-head">End Time</td>
+    <td>Sat Jun 30 16:24:32 2018</td>
+  </tr>
+  <tr>
+    <td class="column-head">Elapsed Time</td>
+    <td>1022 seconds</td>
+  </tr>
+</table>
+<p></p>
+<p class="copyright">&copy; 2008 CIRT, Inc.</p>
+
+<!-- (c) 2008 CIRT, Inc. -->
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<head>
+ <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+ <title>Nikto Report</title>
+ <style type="text/css">
+  .dataTable
+  {
+   font-family: tahoma, sans-serif;
+   font-size: 11pt; 
+   font-weight: normal; 
+   color: #000066;
+   background: #EEEEEE;
+   border: thin solid black;
+   width: 95%;
+  }
+  .headerTable
+  {
+   font-family: tahoma, sans-serif;
+   font-size: 15pt; 
+   font-weight: normal; 
+   color: white;
+   background: #000066;
+   border: thin solid black;
+   width: 300px;
+  }
+  .column-head
+  {
+   width: 15em;
+   font-weight:bold;
+  }
+  .copyright
+  {
+   font-family: tahoma, sans-serif;
+   font-size: 10pt;
+   font-weight: normal;
+   font-style: italic;
+   color: black;
+  }
+  body
+  {
+   background: white;
+  }
+ </style>
+</head>
+<body>
+<div>
+<a name="1"></a>
+<table class="headerTable">
+ <tr>
+   <td>store.steampowered.com / 184.28.244.201 port 443</td>
+ </tr>
+</table>
+<table class="dataTable">
+ <tr>
+   <td class="column-head">Target IP</td>
+   <td>184.28.244.201</td>
+ </tr>
+ <tr>
+   <td class="column-head">Target hostname</td>
+   <td>store.steampowered.com</td>
+ </tr>
+  <tr>
+   <td class="column-head">Target Port</td>
+   <td>443</td>
+ </tr>
+  <tr>
+   <td class="column-head">HTTP Server</td>
+   <td>Apache</td>
+ </tr>
+ <tr>
+   <td class="column-head">Site Link (Name)</td>
+   <td><a href="https://store.steampowered.com:443/">https://store.steampowered.com:443/</a></td>
+ </tr>
+ <tr>
+   <td class="column-head">Site Link (IP)</td>
+   <td><a href="https://184.28.244.201:443/">https://184.28.244.201:443/</a></td>
+ </tr>
+ </table>
+</div>
+<p></p>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>GET</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>Cookie steamCountry created without the secure flag</td>
+  </tr>
+  <tr>
+    <td class="column-head">Test Links</td>
+    <td>
+      <a href="https://store.steampowered.com:443/">https://store.steampowered.com:443/</a><br>
+      <a href="https://184.28.244.201:443/">https://184.28.244.201:443/</a>
+    </td>
+  </tr>
+  <tr>
+    <td class="column-head">OSVDB Entries</td>
+    <td>
+      <a href="http://osvdb.org/0" title="More vulnerability information on OSVDB.org">OSVDB-0</a>
+    </td>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>GET</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>Cookie steamCountry created without the httponly flag</td>
+  </tr>
+  <tr>
+    <td class="column-head">Test Links</td>
+    <td>
+      <a href="https://store.steampowered.com:443/">https://store.steampowered.com:443/</a><br>
+      <a href="https://184.28.244.201:443/">https://184.28.244.201:443/</a>
+    </td>
+  </tr>
+  <tr>
+    <td class="column-head">OSVDB Entries</td>
+    <td>
+      <a href="http://osvdb.org/0" title="More vulnerability information on OSVDB.org">OSVDB-0</a>
+    </td>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>GET</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>Cookie browserid created without the secure flag</td>
+  </tr>
+  <tr>
+    <td class="column-head">Test Links</td>
+    <td>
+      <a href="https://store.steampowered.com:443/">https://store.steampowered.com:443/</a><br>
+      <a href="https://184.28.244.201:443/">https://184.28.244.201:443/</a>
+    </td>
+  </tr>
+  <tr>
+    <td class="column-head">OSVDB Entries</td>
+    <td>
+      <a href="http://osvdb.org/0" title="More vulnerability information on OSVDB.org">OSVDB-0</a>
+    </td>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>GET</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>Cookie browserid created without the httponly flag</td>
+  </tr>
+  <tr>
+    <td class="column-head">Test Links</td>
+    <td>
+      <a href="https://store.steampowered.com:443/">https://store.steampowered.com:443/</a><br>
+      <a href="https://184.28.244.201:443/">https://184.28.244.201:443/</a>
+    </td>
+  </tr>
+  <tr>
+    <td class="column-head">OSVDB Entries</td>
+    <td>
+      <a href="http://osvdb.org/0" title="More vulnerability information on OSVDB.org">OSVDB-0</a>
+    </td>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>GET</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>Cookie sessionid created without the secure flag</td>
+  </tr>
+  <tr>
+    <td class="column-head">Test Links</td>
+    <td>
+      <a href="https://store.steampowered.com:443/">https://store.steampowered.com:443/</a><br>
+      <a href="https://184.28.244.201:443/">https://184.28.244.201:443/</a>
+    </td>
+  </tr>
+  <tr>
+    <td class="column-head">OSVDB Entries</td>
+    <td>
+      <a href="http://osvdb.org/0" title="More vulnerability information on OSVDB.org">OSVDB-0</a>
+    </td>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>GET</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>Cookie sessionid created without the httponly flag</td>
+  </tr>
+  <tr>
+    <td class="column-head">Test Links</td>
+    <td>
+      <a href="https://store.steampowered.com:443/">https://store.steampowered.com:443/</a><br>
+      <a href="https://184.28.244.201:443/">https://184.28.244.201:443/</a>
+    </td>
+  </tr>
+  <tr>
+    <td class="column-head">OSVDB Entries</td>
+    <td>
+      <a href="http://osvdb.org/0" title="More vulnerability information on OSVDB.org">OSVDB-0</a>
+    </td>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>GET</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>The X-XSS-Protection header is not defined. This header can hint to the user agent to protect against some forms of XSS</td>
+  </tr>
+  <tr>
+    <td class="column-head">Test Links</td>
+    <td>
+      <a href="https://store.steampowered.com:443/">https://store.steampowered.com:443/</a><br>
+      <a href="https://184.28.244.201:443/">https://184.28.244.201:443/</a>
+    </td>
+  </tr>
+  <tr>
+    <td class="column-head">OSVDB Entries</td>
+    <td>
+      <a href="http://osvdb.org/0" title="More vulnerability information on OSVDB.org">OSVDB-0</a>
+    </td>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>GET</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>The site uses SSL and the Strict-Transport-Security HTTP header is not defined.</td>
+  </tr>
+  <tr>
+    <td class="column-head">Test Links</td>
+    <td>
+      <a href="https://store.steampowered.com:443/">https://store.steampowered.com:443/</a><br>
+      <a href="https://184.28.244.201:443/">https://184.28.244.201:443/</a>
+    </td>
+  </tr>
+  <tr>
+    <td class="column-head">OSVDB Entries</td>
+    <td>
+      <a href="http://osvdb.org/0" title="More vulnerability information on OSVDB.org">OSVDB-0</a>
+    </td>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>GET</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>The X-Content-Type-Options header is not set. This could allow the user agent to render the content of the site in a different fashion to the MIME type</td>
+  </tr>
+  <tr>
+    <td class="column-head">Test Links</td>
+    <td>
+      <a href="https://store.steampowered.com:443/">https://store.steampowered.com:443/</a><br>
+      <a href="https://184.28.244.201:443/">https://184.28.244.201:443/</a>
+    </td>
+  </tr>
+  <tr>
+    <td class="column-head">OSVDB Entries</td>
+    <td>
+      <a href="http://osvdb.org/0" title="More vulnerability information on OSVDB.org">OSVDB-0</a>
+    </td>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/join/?*redir=/</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>GET</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>Entry '/join/?*redir=/' in robots.txt returned a non-forbidden or redirect HTTP code (200)</td>
+  </tr>
+  <tr>
+    <td class="column-head">Test Links</td>
+    <td>
+      <a href="https://store.steampowered.com:443/join/?*redir=/">https://store.steampowered.com:443/join/?*redir=/</a><br>
+      <a href="https://184.28.244.201:443/join/?*redir=/">https://184.28.244.201:443/join/?*redir=/</a>
+    </td>
+  </tr>
+  <tr>
+    <td class="column-head">OSVDB Entries</td>
+    <td>
+      <a href="http://osvdb.org/0" title="More vulnerability information on OSVDB.org">OSVDB-0</a>
+    </td>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/robots.txt</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>GET</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>&quot;robots.txt&quot; contains 7 entries which should be manually viewed.</td>
+  </tr>
+  <tr>
+    <td class="column-head">Test Links</td>
+    <td>
+      <a href="https://store.steampowered.com:443/robots.txt">https://store.steampowered.com:443/robots.txt</a><br>
+      <a href="https://184.28.244.201:443/robots.txt">https://184.28.244.201:443/robots.txt</a>
+    </td>
+  </tr>
+  <tr>
+    <td class="column-head">OSVDB Entries</td>
+    <td>
+      <a href="http://osvdb.org/0" title="More vulnerability information on OSVDB.org">OSVDB-0</a>
+    </td>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>GET</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>The Content-Encoding header is set to &quot;deflate&quot; this may mean that the server is vulnerable to the BREACH attack.</td>
+  </tr>
+  <tr>
+    <td class="column-head">Test Links</td>
+    <td>
+      <a href="https://store.steampowered.com:443/">https://store.steampowered.com:443/</a><br>
+      <a href="https://184.28.244.201:443/">https://184.28.244.201:443/</a>
+    </td>
+  </tr>
+  <tr>
+    <td class="column-head">OSVDB Entries</td>
+    <td>
+      <a href="http://osvdb.org/0" title="More vulnerability information on OSVDB.org">OSVDB-0</a>
+    </td>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/news/news.mdb</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>GET</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/news/news.mdb: Web Wiz Site News release v3.06 admin password database is available and unencrypted.</td>
+  </tr>
+  <tr>
+    <td class="column-head">Test Links</td>
+    <td>
+      <a href="https://store.steampowered.com:443/news/news.mdb">https://store.steampowered.com:443/news/news.mdb</a><br>
+      <a href="https://184.28.244.201:443/news/news.mdb">https://184.28.244.201:443/news/news.mdb</a>
+    </td>
+  </tr>
+  <tr>
+    <td class="column-head">OSVDB Entries</td>
+    <td>
+      <a href="http://osvdb.org/0" title="More vulnerability information on OSVDB.org">OSVDB-0</a>
+    </td>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/publisher/</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>GET</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/publisher/: Netscape Enterprise Server with Web Publishing can allow attackers to edit web pages and/or list arbitrary directories via Java applet. CVE-2000-0237.</td>
+  </tr>
+  <tr>
+    <td class="column-head">Test Links</td>
+    <td>
+      <a href="https://store.steampowered.com:443/publisher/">https://store.steampowered.com:443/publisher/</a><br>
+      <a href="https://184.28.244.201:443/publisher/">https://184.28.244.201:443/publisher/</a>
+    </td>
+  </tr>
+  <tr>
+    <td class="column-head">OSVDB Entries</td>
+    <td>
+      <a href="http://osvdb.org/1264" title="More vulnerability information on OSVDB.org">OSVDB-1264</a>
+    </td>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/app/</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>GET</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>Cookie recentapps created without the secure flag</td>
+  </tr>
+  <tr>
+    <td class="column-head">Test Links</td>
+    <td>
+      <a href="https://store.steampowered.com:443/app/">https://store.steampowered.com:443/app/</a><br>
+      <a href="https://184.28.244.201:443/app/">https://184.28.244.201:443/app/</a>
+    </td>
+  </tr>
+  <tr>
+    <td class="column-head">OSVDB Entries</td>
+    <td>
+      <a href="http://osvdb.org/0" title="More vulnerability information on OSVDB.org">OSVDB-0</a>
+    </td>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/app/</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>GET</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>Cookie recentapps created without the httponly flag</td>
+  </tr>
+  <tr>
+    <td class="column-head">Test Links</td>
+    <td>
+      <a href="https://store.steampowered.com:443/app/">https://store.steampowered.com:443/app/</a><br>
+      <a href="https://184.28.244.201:443/app/">https://184.28.244.201:443/app/</a>
+    </td>
+  </tr>
+  <tr>
+    <td class="column-head">OSVDB Entries</td>
+    <td>
+      <a href="http://osvdb.org/0" title="More vulnerability information on OSVDB.org">OSVDB-0</a>
+    </td>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/cart/</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>GET</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/cart/: This might be interesting...</td>
+  </tr>
+  <tr>
+    <td class="column-head">Test Links</td>
+    <td>
+      <a href="https://store.steampowered.com:443/cart/">https://store.steampowered.com:443/cart/</a><br>
+      <a href="https://184.28.244.201:443/cart/">https://184.28.244.201:443/cart/</a>
+    </td>
+  </tr>
+  <tr>
+    <td class="column-head">OSVDB Entries</td>
+    <td>
+      <a href="http://osvdb.org/3092" title="More vulnerability information on OSVDB.org">OSVDB-3092</a>
+    </td>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/css</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>GET</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/css: This might be interesting...</td>
+  </tr>
+  <tr>
+    <td class="column-head">Test Links</td>
+    <td>
+      <a href="https://store.steampowered.com:443/css">https://store.steampowered.com:443/css</a><br>
+      <a href="https://184.28.244.201:443/css">https://184.28.244.201:443/css</a>
+    </td>
+  </tr>
+  <tr>
+    <td class="column-head">OSVDB Entries</td>
+    <td>
+      <a href="http://osvdb.org/3092" title="More vulnerability information on OSVDB.org">OSVDB-3092</a>
+    </td>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/dev/</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>GET</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/dev/: This might be interesting...</td>
+  </tr>
+  <tr>
+    <td class="column-head">Test Links</td>
+    <td>
+      <a href="https://store.steampowered.com:443/dev/">https://store.steampowered.com:443/dev/</a><br>
+      <a href="https://184.28.244.201:443/dev/">https://184.28.244.201:443/dev/</a>
+    </td>
+  </tr>
+  <tr>
+    <td class="column-head">OSVDB Entries</td>
+    <td>
+      <a href="http://osvdb.org/3092" title="More vulnerability information on OSVDB.org">OSVDB-3092</a>
+    </td>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/linux/</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>GET</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/linux/: This might be interesting...</td>
+  </tr>
+  <tr>
+    <td class="column-head">Test Links</td>
+    <td>
+      <a href="https://store.steampowered.com:443/linux/">https://store.steampowered.com:443/linux/</a><br>
+      <a href="https://184.28.244.201:443/linux/">https://184.28.244.201:443/linux/</a>
+    </td>
+  </tr>
+  <tr>
+    <td class="column-head">OSVDB Entries</td>
+    <td>
+      <a href="http://osvdb.org/3092" title="More vulnerability information on OSVDB.org">OSVDB-3092</a>
+    </td>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/news</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>GET</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/news: This might be interesting...</td>
+  </tr>
+  <tr>
+    <td class="column-head">Test Links</td>
+    <td>
+      <a href="https://store.steampowered.com:443/news">https://store.steampowered.com:443/news</a><br>
+      <a href="https://184.28.244.201:443/news">https://184.28.244.201:443/news</a>
+    </td>
+  </tr>
+  <tr>
+    <td class="column-head">OSVDB Entries</td>
+    <td>
+      <a href="http://osvdb.org/3092" title="More vulnerability information on OSVDB.org">OSVDB-3092</a>
+    </td>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/pub/</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>GET</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/pub/: This might be interesting...</td>
+  </tr>
+  <tr>
+    <td class="column-head">Test Links</td>
+    <td>
+      <a href="https://store.steampowered.com:443/pub/">https://store.steampowered.com:443/pub/</a><br>
+      <a href="https://184.28.244.201:443/pub/">https://184.28.244.201:443/pub/</a>
+    </td>
+  </tr>
+  <tr>
+    <td class="column-head">OSVDB Entries</td>
+    <td>
+      <a href="http://osvdb.org/3092" title="More vulnerability information on OSVDB.org">OSVDB-3092</a>
+    </td>
+</table>
+
+<table class="dataTable">
+  <tr>
+    <td class="column-head">URI</td>
+    <td>/stats/</td>
+  </tr>
+  <tr>
+    <td class="column-head">HTTP Method</td>
+    <td>GET</td>
+  </tr>
+  <tr>
+    <td class="column-head">Description</td>
+    <td>/stats/: This might be interesting...</td>
+  </tr>
+  <tr>
+    <td class="column-head">Test Links</td>
+    <td>
+      <a href="https://store.steampowered.com:443/stats/">https://store.steampowered.com:443/stats/</a><br>
+      <a href="https://184.28.244.201:443/stats/">https://184.28.244.201:443/stats/</a>
+    </td>
+  </tr>
+  <tr>
+    <td class="column-head">OSVDB Entries</td>
+    <td>
+      <a href="http://osvdb.org/3092" title="More vulnerability information on OSVDB.org">OSVDB-3092</a>
+    </td>
+</table>
+
+<div>
+<p></p>
+<table class="headerTable">
+ <tr>
+  <td>Host Summary</td>
+ </tr>
+</table>
+<table  class="dataTable">
+ <tr>
+  <td class="column-head">Start Time</td>
+  <td>2018-06-30 16:27:54</td>
+ </tr>
+ <tr>
+  <td class="column-head">End Time</td>
+  <td>2018-06-30 17:31:12</td>
+ </tr>
+ <tr>
+  <td class="column-head">Elapsed Time</td>
+  <td>3798 seconds</td>
+ </tr>
+ <tr>
+  <td class="column-head">Statistics</td>
+  <td>7508 requests, 0 errors, 23 findings</td>
+ </tr>
+</table>
+</div>
+<p></p>
+
+<p></p>
+<table class="headerTable">
+  <tr>
+    <td>Scan Summary</td>
+  </tr>
+</table>
+<table class="dataTable">
+  <tr>
+    <td class="column-head">Software Details</td>
+    <td><a href="http://cirt.net/">Nikto 2.1.6</a></td>
+  <tr>
+    <td class="column-head">CLI Options</td>
+    <td>-h https://store.steampowered.com -o store.steampowered-results.html</td>
+  </tr>
+  <tr>
+    <td class="column-head">Hosts Tested</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td class="column-head">Start Time</td>
+    <td>Sat Jun 30 16:27:52 2018</td>
+  </tr>
+  <tr>
+    <td class="column-head">End Time</td>
+    <td>Sat Jun 30 17:31:12 2018</td>
+  </tr>
+  <tr>
+    <td class="column-head">Elapsed Time</td>
+    <td>3800 seconds</td>
+  </tr>
+</table>
+<p></p>
+<p class="copyright">&copy; 2008 CIRT, Inc.</p>
+
+<!-- (c) 2008 CIRT, Inc. -->
+
+</body>
+</html>
+
